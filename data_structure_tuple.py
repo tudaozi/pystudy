@@ -56,6 +56,7 @@ print(b)
 # 将列表转换成元组
 list1 = [1, 2, 3]
 print(tuple(list1))
+
 # 将字典转换成元组
 dict1 = {'a': 1, 'b': 2, 'c': 3}
 print(tuple(dict1))
