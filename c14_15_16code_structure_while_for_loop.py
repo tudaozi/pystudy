@@ -15,6 +15,7 @@
 while  x：
             ….
  break和continue
+ 因此，pet是未被定义的“变量",因此无法判断逻辑的正确性。因此while 后面跟的语句，一定是逻辑可判断True或者False的才能执行。
 '''
 
 # 满足条件循环执行--while后面的条件满足时，继续执行下面的语句，不满足则停止
@@ -41,3 +42,13 @@ while True:
     if num % 2 == 0:
         continue  # 满足条件重新循环，不在执行下面的语句，反之继续执行西面的语句。
     print(num * num)
+
+# for循环
+'''
+for循环是最频繁使用的迭代器
+我们前面讲过的列表、字符串、元祖、集合等都是可以迭代的。
+'''
+
+list1 = ['xiaoli', 'xiaowang', 'xiaoming']
+for name in list1:
+    print(name)
