@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3088e1c4-d1ab-48d0-9c95-9f0f1fe25f6c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/code_structure_if_else.py" beforeDir="false" afterPath="$PROJECT_DIR$/code_structure_if_else.py" afterDir="false" />
-    </list>
+    <list default="true" id="3088e1c4-d1ab-48d0-9c95-9f0f1fe25f6c" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,7 +21,7 @@
         <entry file="file://$PROJECT_DIR$/code_structure_if_else.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="314">
-              <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+              <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -173,12 +171,12 @@
       <workItem from="1549551981532" duration="4482000" />
       <workItem from="1549595621921" duration="7392000" />
       <workItem from="1549615392649" duration="5273000" />
-      <workItem from="1549683647584" duration="3264000" />
+      <workItem from="1549683647584" duration="3576000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35202000" />
+    <option name="totallyTimeSpent" value="35514000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,13 +189,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="877" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info active="true" anchor="bottom" id="Find" order="1" visible="true" weight="0.3299363" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49928468" weight="0.32702702" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -207,8 +204,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.3653586" />
-      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.3653586" />
-      <window_info active="true" anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" visible="true" weight="0.30828026" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.36433122" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" weight="0.30828026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -253,7 +250,7 @@
     <entry file="file://$PROJECT_DIR$/code_structure_if_else.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
-          <caret line="95" lean-forward="true" selection-start-line="95" selection-end-line="95" />
+          <caret line="99" column="16" lean-forward="true" selection-start-line="99" selection-start-column="16" selection-end-line="99" selection-end-column="16" />
         </state>
       </provider>
     </entry>
