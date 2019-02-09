@@ -33,20 +33,3 @@ Python变量
 '''
 a = 3 // 2
 print(a)
-
-# 8、基本数据结构-列表
-'''
-创建一个包含beijing、shanghai、tianjin、chongqing、qingdao的列表
-在列表最后添加jinan和wuhan
-删除列表中的chongqing
-对列表排序
-'''
-
-a = ['beijing', 'shanghai', 'tianjing', 'chongqing', 'qingdao']
-print(a)
-
-a=list('abcdefg')
-print(a)
-#a[:-2:3]   3就是步长比
-a=list('abcdefg')
-a[0]
