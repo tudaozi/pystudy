@@ -8,3 +8,11 @@
 @time: 2019-02-09 15:33
 @desc:
 '''
+
+# 循环与迭代
+# while循环
+'''
+while  x：
+            ….
+ break和continue
+'''

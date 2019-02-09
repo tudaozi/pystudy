@@ -17,7 +17,8 @@ Python使用缩进区分代码块
 '''
 
 '''
-使用If  ,  elif  ,  else进行判断
+使用If,elif,else进行判断
+if else这样的语句是自顶往下执行的
 '''
 
 # if-else
