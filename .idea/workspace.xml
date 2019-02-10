@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3088e1c4-d1ab-48d0-9c95-9f0f1fe25f6c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/b00_data_type.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/b01_data_structure.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py" beforeDir="false" afterPath="$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py" afterDir="false" />
     </list>
@@ -20,11 +22,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="353">
-              <caret line="129" column="3" lean-forward="true" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+            <state relative-caret-position="421">
+              <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/b00_data_type.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/b01_data_structure.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/c10_11_data_structure_tuple.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-475">
+              <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -61,6 +90,8 @@
         <option value="$PROJECT_DIR$/c12_13_code_structure_if_else.py" />
         <option value="$PROJECT_DIR$/c14_15_code_structure_while_for_loop.py" />
         <option value="$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py" />
+        <option value="$PROJECT_DIR$/b01_data_structure.py" />
+        <option value="$PROJECT_DIR$/b00_data_type.py" />
       </list>
     </option>
   </component>
@@ -182,12 +213,12 @@
       <workItem from="1549683647584" duration="3576000" />
       <workItem from="1549692061758" duration="4779000" />
       <workItem from="1549729576878" duration="2523000" />
-      <workItem from="1549771042841" duration="4913000" />
+      <workItem from="1549771042841" duration="7502000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47729000" />
+    <option name="totallyTimeSpent" value="50318000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,17 +297,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="148" lean-forward="true" selection-start-line="148" selection-end-line="148" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/c10_11_data_structure_tuple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-500">
+        <state relative-caret-position="-475">
           <caret line="25" selection-start-line="25" selection-end-line="25" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/c14_15_16code_structure_while_for_loop.py">
+    <entry file="file://$PROJECT_DIR$/b01_data_structure.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="129" column="3" lean-forward="true" selection-start-line="129" selection-start-column="3" selection-end-line="129" selection-end-column="3" />
+        <state relative-caret-position="270">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/b00_data_type.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
         </state>
       </provider>
     </entry>
