@@ -133,16 +133,21 @@ for i in range(2, 10, 2):
   字典推导式
 '''
 
-#使用常规方法将0-10之间的所有数的平方变成列表
+# 使用常规方法将0-10之间的所有数的平方变成列表
 square = []
 for i in range(10):
     square.append(i * i)
 print(square)
 
-#使用推导式将0-10之间的所有数的平方变成列表
+# 使用推导式将0-10之间的所有数的平方变成列表
 [i * i for i in range(10)]
 
-#元组
-（）
-#集合
-#字典
+# 元组--不能使用推导式
+
+# 集合
+set1 = set()
+for i in range(10):
+    set1.add(i*i)
+print(set1)
+# 字典
+dict1 = {}
