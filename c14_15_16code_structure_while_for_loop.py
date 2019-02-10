@@ -46,9 +46,89 @@ while True:
 # for循环
 '''
 for循环是最频繁使用的迭代器
-我们前面讲过的列表、字符串、元祖、集合等都是可以迭代的。
+我们前面讲过的列表、字符串、元组、集合等都是可以迭代的。
+对字典的迭代：
+        默认返回的是字典的key
+        可以单独对values和items迭代
 '''
 
+# 将列表中的所有元素打印出来
 list1 = ['xiaoli', 'xiaowang', 'xiaoming']
 for name in list1:
     print(name)
+
+# 将字符串中的所有字母打印出来
+for letter in 'beijing':  # for a in b,a是b中的下一级元素或b的拆分
+    print(letter.upper())
+
+# 将字典中的所有key、values打印出来
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+for key, values in dict1.items():
+    print(key, values)
+
+# 将字典中的所有key打印出来
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+for key in dict1:
+    print(key)
+
+# 将字典中的所有values打印出来
+dict1 = {'a': 1, 'b': 2, 'c': 3}
+for values in dict1.values():
+    print(values)
+
+# 将元组中的所有元素打印出来
+tuple1 = (1, 2, 3,)
+for name in tuple1:
+    print(name)
+
+# 将集合中的所有元素打印出来
+set1 = {'a', 'b', 'c'}
+for name in set1:
+    print(name)
+
+# zip()函数并行迭代器
+'''
+将多个相同类型序列进行对应组合并压缩
+每循环一次，释放一组组合
+多个序列中最少的序列用完后停止释放组合
+zip()同时对多个序列迭代
+'''
+
+# zip()迭代器功能展示
+list1 = ['beijing', 'shanghai', 'guangzhou', 'shenzhen']
+list2 = ['huabei', 'huadong', 'huanan', 'huanan']
+list3 = ['zhongguo', 'zhongguo', 'zhongguo']
+print(zip(list1, list2, list3))
+list4 = list(zip(list1, list2, list3))
+print(list4)
+
+# 使用for对zip()迭代器进行遍历
+list1 = ['beijing', 'shanghai', 'guangzhou', 'shenzhen']
+list2 = ['huabei', 'huadong', 'huanan', 'huanan']
+list3 = ['zhongguo', 'zhongguo', 'zhongguo']
+for chenshi, weizhi, guojia in zip(list1, list2, list3):
+    print(chenshi, weizhi, guojia)
+
+# range()生成自然数序列
+'''
+格式：
+    range(star,end,step)
+'''
+
+# 打印range的实际参数
+print(list(range(10)))
+
+# range默认从0开始，如果没有填写开始项，默认是range(0,10)
+for i in range(10):
+    print(i * i)
+
+# range指定从某值开始到某某值，步长是某某某
+for i in range(2, 10, 2):
+    print(i * i)
+
+# 推导式
+'''
+列表推导式：
+  [x for x in range(100)  if x%2==0]
+  字典推导式
+'''
