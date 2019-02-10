@@ -142,12 +142,21 @@ print(square)
 # 使用推导式将0-10之间的所有数的平方变成列表
 [i * i for i in range(10)]
 
-# 元组--不能使用推导式
+# 元组--不能使用推导式,使用括号
+list1 = list(i * i for i in range(10))
+print(list1)
 
 # 集合
 set1 = set()
 for i in range(10):
-    set1.add(i*i)
+    set1.add(i * i)
 print(set1)
+
+{i * i for i in range(10)}
+
+{word for word in ['xiaom', 'xiaop', 'xiaoq', 'yaom'] if word.startswith('yao')}
+
 # 字典
-dict1 = {}
+{word: type(word) for word in range(10)}
+
+{word: len(word) for word in ['xiaom', 'xiaop', 'xiaoq', 'yaom'] if word.startswith('xiao')}
