@@ -64,3 +64,13 @@ def the_sum(arg1, arg2, arg3):
 
 sum_end = the_sum(1, 2, 3)
 print(sum_end)
+
+#位置参数
+def the_name(name1, name2):
+    print('my name is ' + name1)
+    print('my name is ' + name2)
+
+
+myname = the_name('xiaoli', 'xiaozhang')
+
+#关键字参数
