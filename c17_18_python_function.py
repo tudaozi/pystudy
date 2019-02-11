@@ -27,8 +27,7 @@ def justprint():
     return False
 
 
-# 无参调用
-word = justprint()
+word = justprint()  # 无参调用
 print(word)
 
 if justprint():
@@ -42,27 +41,26 @@ def shuru(something):
     return something + ' ' + something
 
 
-# 有参调用
-diaoyong = shuru('haoduo')
+diaoyong = shuru('haoduo')  # 有参调用
 print(diaoyong)
 
-num = int()
 
-
-def jioushu(num):
+# 有参数+条件函数
+def i(num):
     if num % 2 == 0:
-        return (num + '是偶数')
+        return str(num) + '是偶数'
     else:
-        return (num + '是奇数')
+        return str(num) + '是奇数'
 
 
-jioushu()
-panduan = jioushu()
+panduan = i(2)  # 调用
 print(panduan)
 
 
-def jioushu(num):
-    if num % 2 == 0:
-        print(num + '是偶数')
-    else:
-        print(num + '是奇数')
+# 函数参数--多个参数
+def the_sum(arg1, arg2, arg3):
+    return arg1 + arg2 + arg3
+
+
+sum_end = the_sum(1, 2, 3)
+print(sum_end)

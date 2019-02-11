@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3088e1c4-d1ab-48d0-9c95-9f0f1fe25f6c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/c17_18_python_function.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/c17_18_python_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/c17_18_python_function.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,7 +13,7 @@
   </component>
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/pystudy$w3c.coverage" NAME="w3c Coverage Results" MODIFIED="1549529404552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/pystudy$c17_18_python_function.coverage" NAME="c17_18_python_function Coverage Results" MODIFIED="1549819160385" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/pystudy$c17_18_python_function.coverage" NAME="c17_18_python_function Coverage Results" MODIFIED="1549862560131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pystudy$data_structure_list.coverage" NAME="data_structure_list Coverage Results" MODIFIED="1549818101239" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="CoverageViewManager">
@@ -24,8 +24,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/c17_18_python_function.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+            <state relative-caret-position="211">
+              <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
             </state>
           </provider>
         </entry>
@@ -212,12 +212,13 @@
       <workItem from="1549729576878" duration="2523000" />
       <workItem from="1549771042841" duration="9738000" />
       <workItem from="1549800506623" duration="262000" />
-      <workItem from="1549804770870" duration="5689000" />
+      <workItem from="1549804770870" duration="5742000" />
+      <workItem from="1549861575170" duration="1442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58505000" />
+    <option name="totallyTimeSpent" value="60000000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -246,8 +247,8 @@
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32972974" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50143063" side_tool="true" weight="0.3653586" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" visible="true" weight="0.36433122" />
-      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" weight="0.30828026" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4985694" weight="0.36433122" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.49928468" visible="true" weight="0.30828026" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -350,8 +351,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/c17_18_python_function.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="57" lean-forward="true" selection-start-line="57" selection-end-line="57" />
+        <state relative-caret-position="211">
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
         </state>
       </provider>
     </entry>
