@@ -68,7 +68,6 @@ print(sum_end)
 
 # 位置参数
 
-
 def the_name(name1, name2):
     # print('my name is ' + name1)
     return 'my name is' + name1
@@ -81,8 +80,6 @@ print(my_name)
 
 
 # 关键字参数
-
-
 def gjzhs(name1, name2):
     print('我的名字是：' + name1)
     print('我的名字是：' + name2)
@@ -91,15 +88,40 @@ def gjzhs(name1, name2):
 ta_name = gjzhs(name1='xiaoli', name2='xiaoming')
 ta_name2 = gjzhs(name2='xiaoming', name1='xiaoli')
 
-#默认参数
-def mrcs(mrcs_c1,mrcs_c2='我是默认参数2'):
-    print('我是参数：'+mrcs_c1)
-    print('我是参数：'+mrcs_c2)
 
-mrcs1=mrcs('canshu1')
+# 默认参数
+def mrcs(mrcs_c1, mrcs_c2='我是默认参数2'):
+    print('我是参数：' + mrcs_c1)
+    print('我是参数：' + mrcs_c2)
 
-#无数参数
+
+mrcs1 = mrcs('canshu1 ')
+
+
+# 无数参数
 def wscs(*arg):
     print(arg)
-wscs1=wscs(1,2,3,4)
 
+
+wscs1 = wscs(1, 2, 3, 4)
+
+
+# 收集参数
+def sjcs(*arg):
+    for word in arg:
+        print(word)
+
+
+sjcs(1, 2, 3, 4, 5)
+
+tuple1 = (1, 2, 3, 4, 5)
+a, b, *arg = tuple1
+print(a, b, *arg)
+
+
+# 双新关键字参数
+def sxcs(**arg1):
+    print(arg1)
+
+
+sxcs(a=1, b=2, c=3)
