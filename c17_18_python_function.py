@@ -121,7 +121,12 @@ print(a, b, *arg)
 
 # 双新关键字参数
 def sxcs(**arg1):
+    '''
+    :param arg1: 默认参数示例
+    :return: 空
+    '''
     print(arg1)
 
 
 sxcs(a=1, b=2, c=3)
+help(sxcs)
