@@ -38,7 +38,7 @@ else:
 
 # 有参函数
 def shuru(something):
-    print (something + ' ' + something)
+    print(something + ' ' + something)
 
 
 shuru('haoduo')  # 有参调用
@@ -47,9 +47,9 @@ shuru('haoduo')  # 有参调用
 # 有参数+条件函数
 def i(num):
     if num % 2 == 0:
-        print (str(num) + '是偶数')
+        print(str(num) + '是偶数')
     else:
-        print (str(num) + '是奇数')
+        print(str(num) + '是奇数')
 
 
 i(2)  # 调用
@@ -57,7 +57,7 @@ i(2)  # 调用
 
 # 函数参数--多个参数
 def the_sum(arg1, arg2, arg3):
-    print (arg1 + arg2 + arg3)
+    print(arg1 + arg2 + arg3)
 
 
 the_sum(1, 2, 3)
