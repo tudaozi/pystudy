@@ -126,3 +126,16 @@ def sxcs(**arg1):
 
 sxcs(a=1, b=2, c=3)
 help(sxcs)
+
+
+#打印文档字符串    //对函数的解释
+def sxcs(**arg1):
+    '''
+    :param arg1: 默认参数示例
+    :return: 空
+    '''
+    print(arg1)
+
+
+sxcs(a=1, b=2, c=3)
+help(sxcs)
