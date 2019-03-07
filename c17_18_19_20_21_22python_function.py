@@ -127,8 +127,14 @@ def sxcs(**arg1):
 sxcs(a=1, b=2, c=3)
 help(sxcs)
 
+# 打印文档字符串    //对函数的解释
+'''
+在函数下面使用一对三个单引号创建注释
+使用help(xx函数名)调用函数文文档字符串
+'''
 
-#打印文档字符串    //对函数的解释
+
+# 1
 def sxcs(**arg1):
     '''
     :param arg1: 默认参数示例
@@ -139,3 +145,16 @@ def sxcs(**arg1):
 
 sxcs(a=1, b=2, c=3)
 help(sxcs)
+
+
+# 2
+def wdzfc(arg):
+    '''
+    :param arg:默认参数示例
+    :return: arg本身
+    '''
+    return arg
+
+
+wdzfc1 = wdzfc(1)
+print(wdzfc1)
