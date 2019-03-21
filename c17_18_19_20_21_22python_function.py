@@ -135,7 +135,7 @@ help(sxcs)
 
 
 # 1
-def sxcs(**arg1):
+def sxcss(**arg1):
     '''
     :param arg1: 默认参数示例
     :return: 空
