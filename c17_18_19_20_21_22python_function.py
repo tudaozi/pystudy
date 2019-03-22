@@ -158,3 +158,6 @@ def wdzfc(arg):
 
 wdzfc1 = wdzfc(1)
 print(wdzfc1)
+
+# 3
+print('i love me python')
