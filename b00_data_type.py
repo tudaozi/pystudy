@@ -13,6 +13,15 @@
 elem1 = 'a'
 elem2 = 1
 
+elem1
+elem2
+#1
+elem3='b'
+elem4='2'
+
 # 字符串
 str1 = 'abc'
 str2 = '123'
+#1
+str3='def'
+str4='456'
